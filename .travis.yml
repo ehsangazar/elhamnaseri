@@ -1,11 +1,13 @@
-  
 language: node_js
 node_js:
-- node
+  - "10"
+script:
+  - npm run build
+  - npm run deploy
 deploy:
   provider: pages
+  github_token: d0f272b327f005e43003c8b785122bf12c45e0ff
   skip_cleanup: true
-  github_token: 6929f690cfd531779dbfd42278fe10235007d67f
-  keep_history: true
   on:
     branch: master
+  fqdn: dev.elhamnaseri.com
