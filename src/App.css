@@ -1,38 +1,88 @@
+body {
+  line-height: 20px;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  font-size: 45px;
+}
+h3 {
+  font-size: 30px;
+}
+p {
+  line-height: 30px;
+}
 .App {
-  text-align: center;
+  width: 100%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App .App-Header {
+  background-color: #333;
+  display: flex;
+  width: 100%;
+  height: 70px;
+  align-items: flex-end;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App .App-Header .App-Container {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App .App-Header ul {
+  display: flex;
+}
+.App .App-Header ul li {
+  list-style: none;
+  padding: 0 10px;
+}
+.App .App-Header ul li a {
+  color: white;
+}
+.App .App-Header ul li a:hover {
+  color: #699da5;
+}
+.App .Banner {
+  background-color: #699da5;
+  height: calc(100vh - 70px);
+  display: flex;
+}
+.App .Banner .Banner-Container {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+.App .Banner  .Banner-Container .Banner-Image {
+  flex: 0 0 50%;
+}
+.App .Banner  .Banner-Container .Banner-Content {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex: 0 0 50%;
 }
-
-.App-link {
-  color: #61dafb;
+.App .Banner-Content h1,
+.App .Banner-Content h2,
+.App .Banner-Content h3 {
+  width: 100%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App .Content {
+  height: calc(100vh);
+  display: flex;
+}
+.App .Content .Content-Container {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+.App .Content .Content-Container .Content-Content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.App .Content .Content-Container .Content-Content h1,
+.App .Content .Content-Container .Content-Content p {
+  width: 100%;
 }
