@@ -54,6 +54,12 @@ p {
 }
 .App .Banner  .Banner-Container .Banner-Image {
   flex: 0 0 50%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.App .Banner  .Banner-Container .Banner-Image img {
+  height: 80vh;
 }
 .App .Banner  .Banner-Container .Banner-Content {
   display: flex;
@@ -61,6 +67,7 @@ p {
   align-items: center;
   justify-content: center;
   flex: 0 0 50%;
+  padding: 0 100px;
 }
 .App .Banner-Content h1,
 .App .Banner-Content h2,

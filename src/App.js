@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import elhamImage from './elham.png'
 
 function App() {
   return (
@@ -28,7 +29,7 @@ function App() {
       <div className="Banner">
         <div className="Banner-Container">
           <div className="Banner-Image">
-              Image
+            <img src={elhamImage} alt="Elham Naseri" />
           </div>
             <div className="Banner-Content">
               <h3>
