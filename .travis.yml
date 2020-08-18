@@ -1,14 +1,10 @@
+  
 language: node_js
 node_js:
-  - "10"
+- node
 cache:
   directories:
-  - node_module
-script:
-  - npm run build
-deploy:
-  provider: pages
-  skip_cleanup: true
-  on:
-    branch: master
-  fqdn: dev.elhamnaseri.com
+    - node_modules
+script: 
+    - npm run build
+    - npm run deploy
