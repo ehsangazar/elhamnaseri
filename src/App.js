@@ -8,19 +8,19 @@ function App() {
         <div className="App-Container">
           <ul>
             <li>
-              <a href="">Home</a>
+              <a href="/">Home</a>
             </li>
             <li>
-              <a href="">Resume</a>
+              <a href="/">Resume</a>
             </li>
             <li>
-              <a href="">Portfolio</a>
+              <a href="/">Portfolio</a>
             </li>
             <li>
-              <a href="">Blog</a>
+              <a href="/">Blog</a>
             </li>
             <li>
-              <a href="">Contact</a>
+              <a href="/">Contact</a>
             </li>
           </ul>
         </div>
