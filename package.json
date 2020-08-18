@@ -14,7 +14,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "deploy": "gh-pages -d build",
-    "test": "",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
